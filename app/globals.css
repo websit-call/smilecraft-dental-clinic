@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), 'Helvetica Neue', Arial, sans-serif;
+  --font-heading: var(--font-lora), 'Georgia', serif;
+
+  /* Natural Tones Palette based on Design HTML */
+  --color-brand-50: #f9f7f2;   /* Main background - --bg */
+  --color-brand-100: #f0f2ea;  /* Secondary background */
+  --color-brand-200: #e9edc9;  /* Highlight background */
+  --color-brand-300: #ccd5ae;  /* Badge background */
+  --color-brand-400: #a68a64;  /* Muted Gold */
+  --color-brand-500: #6b705c;  /* Muted Text - --muted */
+  --color-brand-600: #344e41;  /* Primary Accent - --accent */
+  --color-brand-700: #2a3e34;  /* Darker Accent */
+  --color-brand-800: #1d2b24;
+  --color-brand-900: #1a1a1a;  /* Dark Text - --text */
+
+  /* Natural Tones - Gold Accent mapped to Amber */
+  --color-amber-50: #f9f7f2;
+  --color-amber-100: #f0f2ea;
+  --color-amber-400: #a68a64;
+  --color-amber-500: #a68a64;
+  --color-amber-600: #a68a64;
+  
+  /* Overriding Slate for natural feel */
+  --color-slate-50: #f9f7f2;
+  --color-slate-100: #f0f2ea;
+  --color-slate-200: rgba(52, 78, 65, 0.15); /* Theme Border */
+  --color-slate-300: rgba(52, 78, 65, 0.25);
+  --color-slate-400: #6b705c;
+  --color-slate-500: #6b705c;
+  --color-slate-600: #6b705c;
+  --color-slate-700: #495140;
+  --color-slate-800: #344e41;
+  --color-slate-900: #1a1a1a;
+
+  /* Map other colors to avoid clashes with the constrained palette */
+  --color-blue-50: #f0f2ea;
+  --color-blue-600: #344e41;
+  --color-purple-50: #e9edc9;
+  --color-purple-600: #6b705c;
+  --color-rose-50: #ccd5ae;
+  --color-rose-600: #344e41;
+  --color-cyan-50: #f9f7f2;
+  --color-cyan-600: #a68a64;
+  --color-green-50: #f0f2ea;
+  --color-green-100: #e9edc9;
+  --color-green-500: #a68a64;
+  --color-green-600: #344e41;
+  --color-pink-50: #f0f2ea;
+  --color-pink-500: #344e41;
+  --color-accent-400: #a68a64;
+  --color-accent-500: #a68a64;
+  --color-accent-600: #a68a64;
+
+  /* Soft natural shadows */
+  --shadow-sm: 0 4px 12px rgba(0,0,0,0.02);
+  --shadow-md: 0 8px 24px rgba(0,0,0,0.03);
+  --shadow-lg: 0 10px 30px rgba(0,0,0,0.03);
+  --shadow-xl: 0 20px 40px rgba(0,0,0,0.04);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-50);
+    color: var(--color-slate-900);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
