@@ -26,7 +26,7 @@ export default function AboutDoctor() {
           >
             <div className="relative rounded-[2rem] overflow-hidden aspect-[3/4] shadow-2xl max-w-md mx-auto">
               <Image 
-                src="https://picsum.photos/seed/indian-doctor-2/600/800"
+                src="https://upload.wikimedia.org/wikipedia/commons/8/80/Dr._Kishor_Shivgunde_%E2%80%93_Leading_Dentist_in_Solapur.jpg"
                 alt="Dr. Rahul Chatterjee"
                 fill
                 className="object-cover"
@@ -73,15 +73,6 @@ export default function AboutDoctor() {
                 </div>
               ))}
             </div>
-
-            <Image 
-              src="https://picsum.photos/seed/signature/200/80" 
-              alt="Dr. Rahul Chatterjee Signature" 
-              width={160} 
-              height={60}
-              className="opacity-60 grayscale mix-blend-multiply" 
-              referrerPolicy="no-referrer"
-            />
           </motion.div>
 
         </div>

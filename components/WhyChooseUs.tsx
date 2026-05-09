@@ -69,18 +69,18 @@ export default function WhyChooseUs() {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4 mt-8">
                 <div className="relative rounded-3xl overflow-hidden aspect-[4/5] shadow-lg">
-                  <Image src="https://picsum.photos/seed/dental-tech/500/600" alt="Modern dental equipment" fill className="object-cover" referrerPolicy="no-referrer" />
+                  <Image src="https://live.staticflickr.com/65535/55203863046_1531410ed4_b.jpg" alt="Modern dental equipment" fill className="object-cover" referrerPolicy="no-referrer" />
                 </div>
                 <div className="relative rounded-3xl overflow-hidden aspect-square shadow-lg">
-                  <Image src="https://picsum.photos/seed/happy-patient/500/500" alt="Happy dental patient" fill className="object-cover" referrerPolicy="no-referrer" />
+                  <Image src="https://live.staticflickr.com/65535/55215814004_35df4e8277_b.jpg" alt="Happy dental patient" fill className="object-cover" referrerPolicy="no-referrer" />
                 </div>
               </div>
               <div className="space-y-4">
                 <div className="relative rounded-3xl overflow-hidden aspect-square shadow-lg">
-                  <Image src="https://picsum.photos/seed/dentist-smiling/500/500" alt="Dentist smiling" fill className="object-cover" referrerPolicy="no-referrer" />
+                  <Image src="https://live.staticflickr.com/65535/52731945405_580c7f545d_b.jpg" alt="Dentist consulting patient" fill className="object-cover" referrerPolicy="no-referrer" />
                 </div>
                 <div className="relative rounded-3xl overflow-hidden aspect-[4/5] shadow-lg">
-                  <Image src="https://picsum.photos/seed/clean-clinic/500/600" alt="Clean clinic room" fill className="object-cover" referrerPolicy="no-referrer" />
+                  <Image src="https://live.staticflickr.com/65535/51804242400_d32d4b4b04_b.jpg" alt="Clean clinic room" fill className="object-cover" referrerPolicy="no-referrer" />
                 </div>
               </div>
             </div>

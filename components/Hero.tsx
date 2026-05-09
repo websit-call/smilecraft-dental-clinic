@@ -93,7 +93,7 @@ export default function Hero() {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/5] max-w-md mx-auto ring-1 ring-black/5">
               <Image 
-                src="https://picsum.photos/seed/dental-hero/800/1000"
+                src="https://upload.wikimedia.org/wikipedia/commons/5/50/EFTA00001864_-_Modern_dental_clinic_with_a_yellow_and_white_chair_medical_equipment_and_a_framed_picture_of_traditional_architecture_on_the_wall.jpg"
                 alt="Modern Dental Clinic"
                 fill
                 className="object-cover"
